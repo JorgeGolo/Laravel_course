@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 
 use App\Models\Curso;
 
+use App\Http\Requests\StoreCurso;
+
 class CursoController extends Controller
 {
     public function index(){
@@ -30,7 +32,7 @@ class CursoController extends Controller
     //     return view("cursos.show", compact("curso"));
     // }
 
-    public function store(Request $request){
+    public function store(StoreCurso $request){
         // return $request->all();
 
         $request->validate([
