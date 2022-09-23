@@ -28,17 +28,31 @@ return "Bienvenido a mi proyecto de Laravel";
 
 Route::get('/', HomeController::class);
 
-Route::controller(CursoController::class)->group(function(){
-    Route::get('cursos','index')->name('cursos.index');
-    Route::get('cursos/create','create')->name('cursos.create');
-    Route::get('cursos/{curso}','show')->name('cursos.show');
-});
+// grupos de rutas
 
-Route::post('cursos', [CursoController::class, 'store'])->name('cursos.store');
+// Route::controller(CursoController::class)->group(function(){
+//     Route::get('cursos','index')->name('cursos.index');
+//     Route::get('cursos/create','create')->name('cursos.create');
+//     Route::get('cursos/{curso}','show')->name('cursos.show');
+// });
 
-Route::get('cursos/{curso}/edit', [CursoController::class, 'edit'])->name('cursos.edit');
+// Route::post('cursos', [CursoController::class, 'index'])->name('cursos.index');
 
-Route::put('cursos/{curso}', [CursoController::class, 'update'])->name('cursos.update');
+// Route::post('cursos/create', [CursoController::class, 'store'])->name('cursos.create');
+
+// Route::post('cursos/{curso}', [CursoController::class, 'store'])->name('cursos.show');
+
+// Route::post('cursos', [CursoController::class, 'store'])->name('cursos.store');
+
+// Route::get('cursos/{curso}/edit', [CursoController::class, 'edit'])->name('cursos.edit');
+
+// Route::put('cursos/{curso}', [CursoController::class, 'update'])->name('cursos.update');
+
+// Route::delete('cursos/{curso}',[CursoController::class, 'destroy'])->name('cursos.destroy');
+
+Route::resource('cursos', CursoController::class);
+
+// Route::resource('blabla', CursoController::class)->parameters(['blabla' => 'curso'])->names('cursos');
 
 /*
 Route::get('cursos', [CursoController::class, 'index']);
