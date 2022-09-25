@@ -15,11 +15,13 @@
 
             {{-- <li>{{$curso->name}}</li> --}}
             {{-- <li>{{route('cursos.show')}}</li>  --}}
-            {{-- <li>{{route('cursos.show',$curso->id)}}</li>  --}}
 
             <li>
-                <a href="{{route('cursos.show', $curso->id)}}">{{$curso->name}}</a> 
+                <a href="{{route('cursos.show', $curso)}}">{{$curso->name}}</a> 
             </li>
+
+            {{-- Mostrar la url --}}
+            {{-- {{route('cursos.show', $curso)}} --}}
 
         @endforeach
 
