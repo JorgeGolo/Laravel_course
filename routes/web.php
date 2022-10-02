@@ -26,7 +26,9 @@ return "Bienvenido a mi proyecto de Laravel";
 });
 */
 
-Route::get('/', HomeController::class);
+Route::get('/', HomeController::class)->name('home');
+
+Route::view('nosotros','nosotros')->name('nosotros');
 
 // grupos de rutas
 
