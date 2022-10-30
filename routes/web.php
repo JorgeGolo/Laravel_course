@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactanosController;
 use App\Http\Controllers\CursoController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
@@ -53,6 +54,10 @@ Route::view('nosotros','nosotros')->name('nosotros');
 // Route::delete('cursos/{curso}',[CursoController::class, 'destroy'])->name('cursos.destroy');
 
 Route::resource('cursos', CursoController::class);
+
+Route::get('contactanos', [ContactanosController::class, 'index'])->name('contactanos.index');
+
+Route::post('contactanos',[ContactanosController::class, 'store'])->name('contactanos.store');
 
 // Route::resource('blabla', CursoController::class)->parameters(['blabla' => 'curso'])->names('cursos');
 

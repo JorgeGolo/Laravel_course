@@ -1,6 +1,3 @@
-    <!-- header -->
-    <!-- nav -->
-
     <header>
         <h1>Proyecto Laravel</h1>
         <nav>
@@ -13,6 +10,8 @@
                 </li>
                 <li><a href="{{route('nosotros')}}" class="{{request()->routeIs('nosotros') ? 'active' : '' }}">Nosotros</a>
                     {{-- @dump(request()->routeIs('nosotros')) --}}
+                </li>
+                <li><a href="{{route('contactanos.index')}}" class="{{request()->routeIs('contactanos.index') ? 'active' : '' }}">Contactanos</a>
                 </li>
             </ul>
         </nav>
