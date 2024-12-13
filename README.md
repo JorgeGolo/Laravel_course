@@ -1,3 +1,31 @@
+## Course index (ES)
+
+<ul>
+<li>1- Instalaciones previas: https://likonet.es/2022/05/30/introduccion-a-laravel/</li>
+<li>2- Rutas: https://likonet.es/2022/06/02/introduccion-a-laravel-2-rutas/</li>
+<li>3- Controladores : https://likonet.es/2022/06/04/introduccion-a-laravel-3-controladores/</li>
+<li>4- Grupos de ruta: https://likonet.es/2022/06/05/laravel-grupos-de-ruta-parte-4/</li>
+<li>5- Vistas y plantillas: https://likonet.es/2022/06/11/laravel-vistas-y-plantillas-parte-5/</li>
+<li>6- Bases de datos: https://likonet.es/2022/07/02/laravel-bases-de-datos-parte-6/</li>
+<li>7- Modificar bases de datos: https://likonet.es/2022/07/09/laravel-modificar-bases-de-datos-parte-7/</li>
+<li>8- Eloquent y Tinker: https://likonet.es/2022/07/10/laravel-modelos-eloquent-y-uso-de-tinker-parte-8/</li>
+<li>9- Seeders: https://likonet.es/2022/07/16/laravel-seeders-parte-9/</li>
+<li>10- Factories: https://likonet.es/2022/08/07/laravel-factories-parte-10/</li>
+<li>11- Consultas con Eloquent: https://likonet.es/2022/08/21/laravel-consultas-con-eloquent-parte-11/</li>
+<li>12- Mutadores y Accesores: https://likonet.es/2022/09/04/laravel-mutadores-y-accesores-parte-12/</li>
+<li>13- Listar y leer registros: https://likonet.es/2022/09/08/laravel-listar-y-leer-registros-parte-13/</li>
+<li>14- Registros y formularios: https://likonet.es/2022/09/16/laravel-registros-y-formularios-parte-14/</li>
+<li>15- Validar formularios: https://likonet.es/2022/09/18/laravel-validar-formularios-parte-15/</li>
+<li>16- Asignación masiva en formularios: https://likonet.es/2022/09/21/laravel-asignacion-masiva-formularios-parte-16/</li>
+<li>17- Eliminar registros: https://likonet.es/2022/09/23/laravel-eliminar-registros-parte-17/</li>
+<li>18- Route resource: https://likonet.es/2022/09/23/laravel-route-resource-parte-18/</li>
+<li>19- URL amigables: https://likonet.es/2022/09/25/laravel-url-amigables-parte-19/</li>
+<li>20- Navegabilidad: https://likonet.es/2022/10/02/laravel-navegabilidad-parte-20/</li>
+<li>21- Envío de mails con SMTP: https://likonet.es/2022/10/15/laravel-smtp-parte-21/</li>
+<li>22- Envío de mails con formulario: https://likonet.es/2022/10/30/laravel-envio-de-mails-con-formulario-parte-22/</li>
+<li>23- Bootsatrap con Jetstream: https://likonet.es/2022/11/06/laravel-bootstrap-con-jetstream-capitulo-de-transicion-parte-23/</li>
+<li>24- Actualizaciones y glosario: https://likonet.es/2022/11/14/laravel-actualizaciones-y-glosario-parte-24/</li>
+</ul>
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
